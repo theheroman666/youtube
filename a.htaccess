@@ -1,5 +1,5 @@
 RewriteEngine On
-ErrorDocument 404 http://localhost/amg/Error/NotFound
+ErrorDocument 404 https://amg-dev.herokuapp.com/Error/NotFound
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
